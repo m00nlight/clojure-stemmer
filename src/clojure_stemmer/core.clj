@@ -5,7 +5,7 @@
 ;;    Porter, 1980, An algorithm for suffix stripping, Program, Vol. 14,no. 3, pp 130-137,
 ;;
 ;; see also http://www.tartarus.org/~martin/PorterStemmer
-;; Author : Wang Yushi
+;; Author : m00nlight
 ;; Email  : dot.wangyushi@gmail.com
 ;; Any bug reports are welcomed to send me a email.
 

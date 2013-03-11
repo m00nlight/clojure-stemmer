@@ -13,19 +13,19 @@
 
 (deftest test-0001
   (testing "testting case 1"
-    (is (= (stemming "SEOUL") "SEOUL"))))
+    (is (= (stemming "seoul") "seoul"))))
 
 (deftest test-0002
   (testing "testting case 2"
-    (is (= (stemming "South") "South"))))
+    (is (= (stemming "south") "south"))))
 
 (deftest test-0003
   (testing "testting case 3"
-    (is (= (stemming "Korea") "Korea"))))
+    (is (= (stemming "korea") "korea"))))
 
 (deftest test-0004
   (testing "testting case 4"
-    (is (= (stemming "Angrily") "Angrili"))))
+    (is (= (stemming "angrily") "angrili"))))
 
 (deftest test-0005
   (testing "testting case 5"
@@ -37,19 +37,19 @@
 
 (deftest test-0007
   (testing "testting case 7"
-    (is (= (stemming "United") "Unite"))))
+    (is (= (stemming "united") "unit"))))
 
 (deftest test-0008
   (testing "testting case 8"
-    (is (= (stemming "Nations") "Nation"))))
+    (is (= (stemming "nations") "nation"))))
 
 (deftest test-0009
   (testing "testting case 9"
-    (is (= (stemming "Security") "Secur"))))
+    (is (= (stemming "security") "secur"))))
 
 (deftest test-0010
   (testing "testting case 10"
-    (is (= (stemming "Council") "Council"))))
+    (is (= (stemming "council") "council"))))
 
 (deftest test-0011
   (testing "testting case 11"
@@ -73,11 +73,11 @@
 
 (deftest test-0016
   (testing "testting case 16"
-    (is (= (stemming "North") "North"))))
+    (is (= (stemming "north") "north"))))
 
 (deftest test-0017
   (testing "testting case 17"
-    (is (= (stemming "Korea") "Korea"))))
+    (is (= (stemming "korea") "korea"))))
 
 (deftest test-0018
   (testing "testting case 18"
@@ -85,7 +85,7 @@
 
 (deftest test-0019
   (testing "testting case 19"
-    (is (= (stemming "Friday") "Fridai"))))
+    (is (= (stemming "friday") "fridai"))))
 
 (deftest test-0020
   (testing "testting case 20"
@@ -117,11 +117,11 @@
 
 (deftest test-0027
   (testing "testting case 27"
-    (is (= (stemming "South") "South"))))
+    (is (= (stemming "south") "south"))))
 
 (deftest test-0028
   (testing "testting case 28"
-    (is (= (stemming "Korea") "Korea"))))
+    (is (= (stemming "korea") "korea"))))
 
 (deftest test-0029
   (testing "testting case 29"
@@ -197,7 +197,7 @@
 
 (deftest test-0047
   (testing "testting case 47"
-    (is (= (stemming "Matching") "Match"))))
+    (is (= (stemming "matching") "match"))))
 
 (deftest test-0048
   (testing "testting case 48"
@@ -225,11 +225,11 @@
 
 (deftest test-0054
   (testing "testting case 54"
-    (is (= (stemming "South") "South"))))
+    (is (= (stemming "south") "south"))))
 
 (deftest test-0055
   (testing "testting case 55"
-    (is (= (stemming "Korea") "Korea"))))
+    (is (= (stemming "korea") "korea"))))
 
 (deftest test-0056
   (testing "testting case 56"
@@ -237,7 +237,7 @@
 
 (deftest test-0057
   (testing "testting case 57"
-    (is (= (stemming "Friday") "Fridai"))))
+    (is (= (stemming "friday") "fridai"))))
 
 (deftest test-0058
   (testing "testting case 58"
@@ -245,7 +245,7 @@
 
 (deftest test-0059
   (testing "testting case 59"
-    (is (= (stemming "Pyongyang") "Pyongyang"))))
+    (is (= (stemming "pyongyang") "pyongyang"))))
 
 (deftest test-0060
   (testing "testting case 60"
@@ -257,7 +257,7 @@
 
 (deftest test-0062
   (testing "testting case 62"
-    (is (= (stemming "South") "South"))))
+    (is (= (stemming "south") "south"))))
 
 (deftest test-0063
   (testing "testting case 63"
@@ -285,11 +285,11 @@
 
 (deftest test-0069
   (testing "testting case 69"
-    (is (= (stemming "North") "North"))))
+    (is (= (stemming "north") "north"))))
 
 (deftest test-0070
   (testing "testting case 70"
-    (is (= (stemming "Korean") "Korean"))))
+    (is (= (stemming "korean") "korean"))))
 
 (deftest test-0071
   (testing "testting case 71"
@@ -297,11 +297,11 @@
 
 (deftest test-0072
   (testing "testting case 72"
-    (is (= (stemming "Kim") "Kim"))))
+    (is (= (stemming "kim") "kim"))))
 
 (deftest test-0073
   (testing "testting case 73"
-    (is (= (stemming "Jong") "Jong"))))
+    (is (= (stemming "jong") "jong"))))
 
 (deftest test-0074
   (testing "testting case 74"
@@ -325,7 +325,7 @@
 
 (deftest test-0079
   (testing "testting case 79"
-    (is (= (stemming "Such") "Such"))))
+    (is (= (stemming "such") "such"))))
 
 (deftest test-0080
   (testing "testting case 80"
@@ -365,7 +365,7 @@
 
 (deftest test-0089
   (testing "testting case 89"
-    (is (= (stemming "Koreas") "Korea"))))
+    (is (= (stemming "koreas") "korea"))))
 
 (deftest test-0090
   (testing "testting case 90"
@@ -413,7 +413,7 @@
 
 (deftest test-0101
   (testing "testting case 101"
-    (is (= (stemming "The") "The"))))
+    (is (= (stemming "the") "the"))))
 
 (deftest test-0102
   (testing "testting case 102"
@@ -449,11 +449,11 @@
 
 (deftest test-0110
   (testing "testting case 110"
-    (is (= (stemming "North") "North"))))
+    (is (= (stemming "north") "north"))))
 
 (deftest test-0111
   (testing "testting case 111"
-    (is (= (stemming "Korean") "Korean"))))
+    (is (= (stemming "korean") "korean"))))
 
 (deftest test-0112
   (testing "testting case 112"
@@ -497,11 +497,11 @@
 
 (deftest test-0122
   (testing "testting case 122"
-    (is (= (stemming "Park") "Park"))))
+    (is (= (stemming "park") "park"))))
 
 (deftest test-0123
   (testing "testting case 123"
-    (is (= (stemming "Geun") "Geun"))))
+    (is (= (stemming "geun") "geun"))))
 
 (deftest test-0124
   (testing "testting case 124"
@@ -509,11 +509,11 @@
 
 (deftest test-0125
   (testing "testting case 125"
-    (is (= (stemming "South") "South"))))
+    (is (= (stemming "south") "south"))))
 
 (deftest test-0126
   (testing "testting case 126"
-    (is (= (stemming "Korea") "Korea"))))
+    (is (= (stemming "korea") "korea"))))
 
 (deftest test-0127
   (testing "testting case 127"
@@ -545,23 +545,23 @@
 
 (deftest test-0134
   (testing "testting case 134"
-    (is (= (stemming "British") "British"))))
+    (is (= (stemming "british") "british"))))
 
 (deftest test-0135
   (testing "testting case 135"
-    (is (= (stemming "Prime") "Prime"))))
+    (is (= (stemming "prime") "prime"))))
 
 (deftest test-0136
   (testing "testting case 136"
-    (is (= (stemming "Minister") "Minist"))))
+    (is (= (stemming "minister") "minist"))))
 
 (deftest test-0137
   (testing "testting case 137"
-    (is (= (stemming "Margaret") "Margaret"))))
+    (is (= (stemming "margaret") "margaret"))))
 
 (deftest test-0138
   (testing "testting case 138"
-    (is (= (stemming "Thatcher") "Thatcher"))))
+    (is (= (stemming "thatcher") "thatcher"))))
 
 (deftest test-0139
   (testing "testting case 139"
@@ -605,7 +605,7 @@
 
 (deftest test-0149
   (testing "testting case 149"
-    (is (= (stemming "While") "While"))))
+    (is (= (stemming "while") "while"))))
 
 (deftest test-0150
   (testing "testting case 150"
@@ -621,11 +621,11 @@
 
 (deftest test-0153
   (testing "testting case 153"
-    (is (= (stemming "North") "North"))))
+    (is (= (stemming "north") "north"))))
 
 (deftest test-0154
   (testing "testting case 154"
-    (is (= (stemming "Korea") "Korea"))))
+    (is (= (stemming "korea") "korea"))))
 
 (deftest test-0155
   (testing "testting case 155"
@@ -701,7 +701,7 @@
 
 (deftest test-0173
   (testing "testting case 173"
-    (is (= (stemming "With") "With"))))
+    (is (= (stemming "with") "with"))))
 
 (deftest test-0174
   (testing "testting case 174"
@@ -789,11 +789,11 @@
 
 (deftest test-0195
   (testing "testting case 195"
-    (is (= (stemming "Kang") "Kang"))))
+    (is (= (stemming "kang") "kang"))))
 
 (deftest test-0196
   (testing "testting case 196"
-    (is (= (stemming "Pyo") "Pyo"))))
+    (is (= (stemming "pyo") "pyo"))))
 
 (deftest test-0197
   (testing "testting case 197"
@@ -829,11 +829,11 @@
 
 (deftest test-0205
   (testing "testting case 205"
-    (is (= (stemming "North") "North"))))
+    (is (= (stemming "north") "north"))))
 
 (deftest test-0206
   (testing "testting case 206"
-    (is (= (stemming "Korea") "Korea"))))
+    (is (= (stemming "korea") "korea"))))
 
 (deftest test-0207
   (testing "testting case 207"
@@ -885,7 +885,7 @@
 
 (deftest test-0219
   (testing "testting case 219"
-    (is (= (stemming "Washington") "Washington"))))
+    (is (= (stemming "washington") "washington"))))
 
 (deftest test-0220
   (testing "testting case 220"
@@ -897,7 +897,7 @@
 
 (deftest test-0222
   (testing "testting case 222"
-    (is (= (stemming "American") "American"))))
+    (is (= (stemming "american") "american"))))
 
 (deftest test-0223
   (testing "testting case 223"
@@ -945,7 +945,7 @@
 
 (deftest test-0234
   (testing "testting case 234"
-    (is (= (stemming "His") "Hi"))))
+    (is (= (stemming "his") "hi"))))
 
 (deftest test-0235
   (testing "testting case 235"
@@ -977,11 +977,11 @@
 
 (deftest test-0242
   (testing "testting case 242"
-    (is (= (stemming "Pyongyang") "Pyongyang"))))
+    (is (= (stemming "pyongyang") "pyongyang"))))
 
 (deftest test-0243
   (testing "testting case 243"
-    (is (= (stemming "Thursday") "Thursdai"))))
+    (is (= (stemming "thursday") "thursdai"))))
 
 (deftest test-0244
   (testing "testting case 244"
@@ -997,7 +997,7 @@
 
 (deftest test-0247
   (testing "testting case 247"
-    (is (= (stemming "North") "North"))))
+    (is (= (stemming "north") "north"))))
 
 (deftest test-0248
   (testing "testting case 248"
@@ -1013,15 +1013,15 @@
 
 (deftest test-0251
   (testing "testting case 251"
-    (is (= (stemming "Rodong") "Rodong"))))
+    (is (= (stemming "rodong") "rodong"))))
 
 (deftest test-0252
   (testing "testting case 252"
-    (is (= (stemming "Sinmun") "Sinmun"))))
+    (is (= (stemming "sinmun") "sinmun"))))
 
 (deftest test-0253
   (testing "testting case 253"
-    (is (= (stemming "Friday") "Fridai"))))
+    (is (= (stemming "friday") "fridai"))))
 
 (deftest test-0254
   (testing "testting case 254"
@@ -1053,11 +1053,11 @@
 
 (deftest test-0261
   (testing "testting case 261"
-    (is (= (stemming "North") "North"))))
+    (is (= (stemming "north") "north"))))
 
 (deftest test-0262
   (testing "testting case 262"
-    (is (= (stemming "Korean") "Korean"))))
+    (is (= (stemming "korean") "korean"))))
 
 (deftest test-0263
   (testing "testting case 263"
@@ -1109,7 +1109,7 @@
 
 (deftest test-0275
   (testing "testting case 275"
-    (is (= (stemming "Washington") "Washington"))))
+    (is (= (stemming "washington") "washington"))))
 
 (deftest test-0276
   (testing "testting case 276"
@@ -1117,7 +1117,7 @@
 
 (deftest test-0277
   (testing "testting case 277"
-    (is (= (stemming "Seoul") "Seoul"))))
+    (is (= (stemming "seoul") "seoul"))))
 
 (deftest test-0278
   (testing "testting case 278"
@@ -1189,7 +1189,7 @@
 
 (deftest test-0295
   (testing "testting case 295"
-    (is (= (stemming "But") "But"))))
+    (is (= (stemming "but") "but"))))
 
 (deftest test-0296
   (testing "testting case 296"
@@ -1197,11 +1197,11 @@
 
 (deftest test-0297
   (testing "testting case 297"
-    (is (= (stemming "South") "South"))))
+    (is (= (stemming "south") "south"))))
 
 (deftest test-0298
   (testing "testting case 298"
-    (is (= (stemming "Korean") "Korean"))))
+    (is (= (stemming "korean") "korean"))))
 
 (deftest test-0299
   (testing "testting case 299"
@@ -1217,11 +1217,11 @@
 
 (deftest test-0302
   (testing "testting case 302"
-    (is (= (stemming "North") "North"))))
+    (is (= (stemming "north") "north"))))
 
 (deftest test-0303
   (testing "testting case 303"
-    (is (= (stemming "Korea") "Korea"))))
+    (is (= (stemming "korea") "korea"))))
 
 (deftest test-0304
   (testing "testting case 304"
@@ -1269,7 +1269,7 @@
 
 (deftest test-0315
   (testing "testting case 315"
-    (is (= (stemming "December") "Decemb"))))
+    (is (= (stemming "december") "decemb"))))
 
 (deftest test-0316
   (testing "testting case 316"
@@ -1301,11 +1301,11 @@
 
 (deftest test-0323
   (testing "testting case 323"
-    (is (= (stemming "South") "South"))))
+    (is (= (stemming "south") "south"))))
 
 (deftest test-0324
   (testing "testting case 324"
-    (is (= (stemming "Korean") "Korean"))))
+    (is (= (stemming "korean") "korean"))))
 
 (deftest test-0325
   (testing "testting case 325"
@@ -1349,7 +1349,7 @@
 
 (deftest test-0335
   (testing "testting case 335"
-    (is (= (stemming "Washington") "Washington"))))
+    (is (= (stemming "washington") "washington"))))
 
 (deftest test-0336
   (testing "testting case 336"
@@ -1389,11 +1389,11 @@
 
 (deftest test-0345
   (testing "testting case 345"
-    (is (= (stemming "Kim") "Kim"))))
+    (is (= (stemming "kim") "kim"))))
 
 (deftest test-0346
   (testing "testting case 346"
-    (is (= (stemming "Jong") "Jong"))))
+    (is (= (stemming "jong") "jong"))))
 
 (deftest test-0347
   (testing "testting case 347"
@@ -1409,11 +1409,11 @@
 
 (deftest test-0350
   (testing "testting case 350"
-    (is (= (stemming "North") "North"))))
+    (is (= (stemming "north") "north"))))
 
 (deftest test-0351
   (testing "testting case 351"
-    (is (= (stemming "Korea") "Korea"))))
+    (is (= (stemming "korea") "korea"))))
 
 (deftest test-0352
   (testing "testting case 352"
@@ -1433,7 +1433,7 @@
 
 (deftest test-0356
   (testing "testting case 356"
-    (is (= (stemming "Rodong") "Rodong"))))
+    (is (= (stemming "rodong") "rodong"))))
 
 (deftest test-0357
   (testing "testting case 357"
@@ -1457,11 +1457,11 @@
 
 (deftest test-0362
   (testing "testting case 362"
-    (is (= (stemming "North") "North"))))
+    (is (= (stemming "north") "north"))))
 
 (deftest test-0363
   (testing "testting case 363"
-    (is (= (stemming "Korea") "Korea"))))
+    (is (= (stemming "korea") "korea"))))
 
 (deftest test-0364
   (testing "testting case 364"
@@ -1481,11 +1481,11 @@
 
 (deftest test-0368
   (testing "testting case 368"
-    (is (= (stemming "South") "South"))))
+    (is (= (stemming "south") "south"))))
 
 (deftest test-0369
   (testing "testting case 369"
-    (is (= (stemming "Korea") "Korea"))))
+    (is (= (stemming "korea") "korea"))))
 
 (deftest test-0370
   (testing "testting case 370"
@@ -1517,11 +1517,11 @@
 
 (deftest test-0377
   (testing "testting case 377"
-    (is (= (stemming "North") "North"))))
+    (is (= (stemming "north") "north"))))
 
 (deftest test-0378
   (testing "testting case 378"
-    (is (= (stemming "Korea") "Korea"))))
+    (is (= (stemming "korea") "korea"))))
 
 (deftest test-0379
   (testing "testting case 379"
@@ -1541,11 +1541,11 @@
 
 (deftest test-0383
   (testing "testting case 383"
-    (is (= (stemming "North") "North"))))
+    (is (= (stemming "north") "north"))))
 
 (deftest test-0384
   (testing "testting case 384"
-    (is (= (stemming "Korea") "Korea"))))
+    (is (= (stemming "korea") "korea"))))
 
 (deftest test-0385
   (testing "testting case 385"
@@ -1617,11 +1617,11 @@
 
 (deftest test-0402
   (testing "testting case 402"
-    (is (= (stemming "President") "Presid"))))
+    (is (= (stemming "president") "presid"))))
 
 (deftest test-0403
   (testing "testting case 403"
-    (is (= (stemming "Park") "Park"))))
+    (is (= (stemming "park") "park"))))
 
 (deftest test-0404
   (testing "testting case 404"
@@ -1657,11 +1657,11 @@
 
 (deftest test-0412
   (testing "testting case 412"
-    (is (= (stemming "Friday") "Fridai"))))
+    (is (= (stemming "friday") "fridai"))))
 
 (deftest test-0413
   (testing "testting case 413"
-    (is (= (stemming "She") "She"))))
+    (is (= (stemming "she") "she"))))
 
 (deftest test-0414
   (testing "testting case 414"
@@ -1701,11 +1701,11 @@
 
 (deftest test-0423
   (testing "testting case 423"
-    (is (= (stemming "North") "North"))))
+    (is (= (stemming "north") "north"))))
 
 (deftest test-0424
   (testing "testting case 424"
-    (is (= (stemming "Korea") "Korea"))))
+    (is (= (stemming "korea") "korea"))))
 
 (deftest test-0425
   (testing "testting case 425"
@@ -1713,19 +1713,19 @@
 
 (deftest test-0426
   (testing "testting case 426"
-    (is (= (stemming "Also") "Also"))))
+    (is (= (stemming "also") "also"))))
 
 (deftest test-0427
   (testing "testting case 427"
-    (is (= (stemming "Friday") "Fridai"))))
+    (is (= (stemming "friday") "fridai"))))
 
 (deftest test-0428
   (testing "testting case 428"
-    (is (= (stemming "North") "North"))))
+    (is (= (stemming "north") "north"))))
 
 (deftest test-0429
   (testing "testting case 429"
-    (is (= (stemming "Korea") "Korea"))))
+    (is (= (stemming "korea") "korea"))))
 
 (deftest test-0430
   (testing "testting case 430"
@@ -1765,11 +1765,11 @@
 
 (deftest test-0439
   (testing "testting case 439"
-    (is (= (stemming "South") "South"))))
+    (is (= (stemming "south") "south"))))
 
 (deftest test-0440
   (testing "testting case 440"
-    (is (= (stemming "Korea") "Korea"))))
+    (is (= (stemming "korea") "korea"))))
 
 (deftest test-0441
   (testing "testting case 441"
@@ -1789,11 +1789,11 @@
 
 (deftest test-0445
   (testing "testting case 445"
-    (is (= (stemming "North") "North"))))
+    (is (= (stemming "north") "north"))))
 
 (deftest test-0446
   (testing "testting case 446"
-    (is (= (stemming "South") "South"))))
+    (is (= (stemming "south") "south"))))
 
 (deftest test-0447
   (testing "testting case 447"
@@ -1841,11 +1841,11 @@
 
 (deftest test-0458
   (testing "testting case 458"
-    (is (= (stemming "South") "South"))))
+    (is (= (stemming "south") "south"))))
 
 (deftest test-0459
   (testing "testting case 459"
-    (is (= (stemming "Korea") "Korea"))))
+    (is (= (stemming "korea") "korea"))))
 
 (deftest test-0460
   (testing "testting case 460"
@@ -1865,15 +1865,15 @@
 
 (deftest test-0464
   (testing "testting case 464"
-    (is (= (stemming "United") "Unite"))))
+    (is (= (stemming "united") "unit"))))
 
 (deftest test-0465
   (testing "testting case 465"
-    (is (= (stemming "States") "State"))))
+    (is (= (stemming "states") "state"))))
 
 (deftest test-0466
   (testing "testting case 466"
-    (is (= (stemming "But") "But"))))
+    (is (= (stemming "but") "but"))))
 
 (deftest test-0467
   (testing "testting case 467"
@@ -1881,11 +1881,11 @@
 
 (deftest test-0468
   (testing "testting case 468"
-    (is (= (stemming "North") "North"))))
+    (is (= (stemming "north") "north"))))
 
 (deftest test-0469
   (testing "testting case 469"
-    (is (= (stemming "Korea") "Korea"))))
+    (is (= (stemming "korea") "korea"))))
 
 (deftest test-0470
   (testing "testting case 470"
@@ -1953,15 +1953,15 @@
 
 (deftest test-0486
   (testing "testting case 486"
-    (is (= (stemming "Any") "Any"))))
+    (is (= (stemming "any") "ani"))))
 
 (deftest test-0487
   (testing "testting case 487"
-    (is (= (stemming "North") "North"))))
+    (is (= (stemming "north") "north"))))
 
 (deftest test-0488
   (testing "testting case 488"
-    (is (= (stemming "Korean") "Korean"))))
+    (is (= (stemming "korean") "korean"))))
 
 (deftest test-0489
   (testing "testting case 489"
@@ -1989,7 +1989,7 @@
 
 (deftest test-0495
   (testing "testting case 495"
-    (is (= (stemming "American") "American"))))
+    (is (= (stemming "american") "american"))))
 
 (deftest test-0496
   (testing "testting case 496"
@@ -2009,11 +2009,11 @@
 
 (deftest test-0500
   (testing "testting case 500"
-    (is (= (stemming "South") "South"))))
+    (is (= (stemming "south") "south"))))
 
 (deftest test-0501
   (testing "testting case 501"
-    (is (= (stemming "Korea") "Korea"))))
+    (is (= (stemming "korea") "korea"))))
 
 (deftest test-0502
   (testing "testting case 502"
@@ -2069,15 +2069,15 @@
 
 (deftest test-0515
   (testing "testting case 515"
-    (is (= (stemming "The") "The"))))
+    (is (= (stemming "the") "the"))))
 
 (deftest test-0516
   (testing "testting case 516"
-    (is (= (stemming "Security") "Secur"))))
+    (is (= (stemming "security") "secur"))))
 
 (deftest test-0517
   (testing "testting case 517"
-    (is (= (stemming "Council") "Council"))))
+    (is (= (stemming "council") "council"))))
 
 (deftest test-0518
   (testing "testting case 518"
@@ -2105,11 +2105,11 @@
 
 (deftest test-0524
   (testing "testting case 524"
-    (is (= (stemming "North") "North"))))
+    (is (= (stemming "north") "north"))))
 
 (deftest test-0525
   (testing "testting case 525"
-    (is (= (stemming "Korean") "Korean"))))
+    (is (= (stemming "korean") "korean"))))
 
 (deftest test-0526
   (testing "testting case 526"
@@ -2145,11 +2145,11 @@
 
 (deftest test-0534
   (testing "testting case 534"
-    (is (= (stemming "North") "North"))))
+    (is (= (stemming "north") "north"))))
 
 (deftest test-0535
   (testing "testting case 535"
-    (is (= (stemming "Korean") "Korean"))))
+    (is (= (stemming "korean") "korean"))))
 
 (deftest test-0536
   (testing "testting case 536"
@@ -2193,7 +2193,7 @@
 
 (deftest test-0546
   (testing "testting case 546"
-    (is (= (stemming "But") "But"))))
+    (is (= (stemming "but") "but"))))
 
 (deftest test-0547
   (testing "testting case 547"
@@ -2229,7 +2229,7 @@
 
 (deftest test-0555
   (testing "testting case 555"
-    (is (= (stemming "China") "China"))))
+    (is (= (stemming "china") "china"))))
 
 (deftest test-0556
   (testing "testting case 556"
@@ -2293,19 +2293,19 @@
 
 (deftest test-0571
   (testing "testting case 571"
-    (is (= (stemming "Korean") "Korean"))))
+    (is (= (stemming "korean") "korean"))))
 
 (deftest test-0572
   (testing "testting case 572"
-    (is (= (stemming "War") "War"))))
+    (is (= (stemming "war") "war"))))
 
 (deftest test-0573
   (testing "testting case 573"
-    (is (= (stemming "While") "While"))))
+    (is (= (stemming "while") "while"))))
 
 (deftest test-0574
   (testing "testting case 574"
-    (is (= (stemming "China") "China"))))
+    (is (= (stemming "china") "china"))))
 
 (deftest test-0575
   (testing "testting case 575"
@@ -2317,11 +2317,11 @@
 
 (deftest test-0577
   (testing "testting case 577"
-    (is (= (stemming "North") "North"))))
+    (is (= (stemming "north") "north"))))
 
 (deftest test-0578
   (testing "testting case 578"
-    (is (= (stemming "Korea") "Korea"))))
+    (is (= (stemming "korea") "korea"))))
 
 (deftest test-0579
   (testing "testting case 579"
@@ -2349,7 +2349,7 @@
 
 (deftest test-0585
   (testing "testting case 585"
-    (is (= (stemming "This") "Thi"))))
+    (is (= (stemming "this") "thi"))))
 
 (deftest test-0586
   (testing "testting case 586"
@@ -2385,11 +2385,11 @@
 
 (deftest test-0594
   (testing "testting case 594"
-    (is (= (stemming "Christopher") "Christoph"))))
+    (is (= (stemming "christopher") "christoph"))))
 
 (deftest test-0595
   (testing "testting case 595"
-    (is (= (stemming "Hill") "Hill"))))
+    (is (= (stemming "hill") "hill"))))
 
 (deftest test-0596
   (testing "testting case 596"
@@ -2401,7 +2401,7 @@
 
 (deftest test-0598
   (testing "testting case 598"
-    (is (= (stemming "American") "American"))))
+    (is (= (stemming "american") "american"))))
 
 (deftest test-0599
   (testing "testting case 599"
@@ -2429,7 +2429,7 @@
 
 (deftest test-0605
   (testing "testting case 605"
-    (is (= (stemming "North") "North"))))
+    (is (= (stemming "north") "north"))))
 
 (deftest test-0606
   (testing "testting case 606"
@@ -2441,11 +2441,11 @@
 
 (deftest test-0608
   (testing "testting case 608"
-    (is (= (stemming "George") "Georg"))))
+    (is (= (stemming "george") "georg"))))
 
 (deftest test-0609
   (testing "testting case 609"
-    (is (= (stemming "Bush") "Bush"))))
+    (is (= (stemming "bush") "bush"))))
 
 (deftest test-0610
   (testing "testting case 610"
@@ -2485,7 +2485,7 @@
 
 (deftest test-0619
   (testing "testting case 619"
-    (is (= (stemming "China") "China"))))
+    (is (= (stemming "china") "china"))))
 
 (deftest test-0620
   (testing "testting case 620"
@@ -2545,7 +2545,7 @@
 
 (deftest test-0634
   (testing "testting case 634"
-    (is (= (stemming "Hill") "Hill"))))
+    (is (= (stemming "hill") "hill"))))
 
 (deftest test-0635
   (testing "testting case 635"
@@ -2565,23 +2565,23 @@
 
 (deftest test-0639
   (testing "testting case 639"
-    (is (= (stemming "Josef") "Josef"))))
+    (is (= (stemming "josef") "josef"))))
 
 (deftest test-0640
   (testing "testting case 640"
-    (is (= (stemming "Korbel") "Korbel"))))
+    (is (= (stemming "korbel") "korbel"))))
 
 (deftest test-0641
   (testing "testting case 641"
-    (is (= (stemming "School") "School"))))
+    (is (= (stemming "school") "school"))))
 
 (deftest test-0642
   (testing "testting case 642"
-    (is (= (stemming "International") "Internat"))))
+    (is (= (stemming "international") "intern"))))
 
 (deftest test-0643
   (testing "testting case 643"
-    (is (= (stemming "Studies") "Studi"))))
+    (is (= (stemming "studies") "studi"))))
 
 (deftest test-0644
   (testing "testting case 644"
@@ -2589,15 +2589,15 @@
 
 (deftest test-0645
   (testing "testting case 645"
-    (is (= (stemming "University") "Univers"))))
+    (is (= (stemming "university") "univers"))))
 
 (deftest test-0646
   (testing "testting case 646"
-    (is (= (stemming "Denver") "Denver"))))
+    (is (= (stemming "denver") "denver"))))
 
 (deftest test-0647
   (testing "testting case 647"
-    (is (= (stemming "Still") "Still"))))
+    (is (= (stemming "still") "still"))))
 
 (deftest test-0648
   (testing "testting case 648"
@@ -2605,11 +2605,11 @@
 
 (deftest test-0649
   (testing "testting case 649"
-    (is (= (stemming "North") "North"))))
+    (is (= (stemming "north") "north"))))
 
 (deftest test-0650
   (testing "testting case 650"
-    (is (= (stemming "Korean") "Korean"))))
+    (is (= (stemming "korean") "korean"))))
 
 (deftest test-0651
   (testing "testting case 651"
@@ -2657,11 +2657,11 @@
 
 (deftest test-0662
   (testing "testting case 662"
-    (is (= (stemming "South") "South"))))
+    (is (= (stemming "south") "south"))))
 
 (deftest test-0663
   (testing "testting case 663"
-    (is (= (stemming "Korea") "Korea"))))
+    (is (= (stemming "korea") "korea"))))
 
 (deftest test-0664
   (testing "testting case 664"
@@ -2681,7 +2681,7 @@
 
 (deftest test-0668
   (testing "testting case 668"
-    (is (= (stemming "Park") "Park"))))
+    (is (= (stemming "park") "park"))))
 
 (deftest test-0669
   (testing "testting case 669"
@@ -2697,11 +2697,11 @@
 
 (deftest test-0672
   (testing "testting case 672"
-    (is (= (stemming "South") "South"))))
+    (is (= (stemming "south") "south"))))
 
 (deftest test-0673
   (testing "testting case 673"
-    (is (= (stemming "Korean") "Korean"))))
+    (is (= (stemming "korean") "korean"))))
 
 (deftest test-0674
   (testing "testting case 674"
@@ -2745,7 +2745,7 @@
 
 (deftest test-0684
   (testing "testting case 684"
-    (is (= (stemming "North") "North"))))
+    (is (= (stemming "north") "north"))))
 
 (deftest test-0685
   (testing "testting case 685"
@@ -2761,7 +2761,7 @@
 
 (deftest test-0688
   (testing "testting case 688"
-    (is (= (stemming "Some") "Some"))))
+    (is (= (stemming "some") "some"))))
 
 (deftest test-0689
   (testing "testting case 689"
@@ -2773,7 +2773,7 @@
 
 (deftest test-0691
   (testing "testting case 691"
-    (is (= (stemming "North") "North"))))
+    (is (= (stemming "north") "north"))))
 
 (deftest test-0692
   (testing "testting case 692"
@@ -2813,7 +2813,7 @@
 
 (deftest test-0701
   (testing "testting case 701"
-    (is (= (stemming "The") "The"))))
+    (is (= (stemming "the") "the"))))
 
 (deftest test-0702
   (testing "testting case 702"
@@ -2841,11 +2841,11 @@
 
 (deftest test-0708
   (testing "testting case 708"
-    (is (= (stemming "Bill") "Bill"))))
+    (is (= (stemming "bill") "bill"))))
 
 (deftest test-0709
   (testing "testting case 709"
-    (is (= (stemming "Richardson") "Richardson"))))
+    (is (= (stemming "richardson") "richardson"))))
 
 (deftest test-0710
   (testing "testting case 710"
@@ -2861,11 +2861,11 @@
 
 (deftest test-0713
   (testing "testting case 713"
-    (is (= (stemming "New") "New"))))
+    (is (= (stemming "new") "new"))))
 
 (deftest test-0714
   (testing "testting case 714"
-    (is (= (stemming "Mexico") "Mexico"))))
+    (is (= (stemming "mexico") "mexico"))))
 
 (deftest test-0715
   (testing "testting case 715"
@@ -2893,11 +2893,11 @@
 
 (deftest test-0721
   (testing "testting case 721"
-    (is (= (stemming "North") "North"))))
+    (is (= (stemming "north") "north"))))
 
 (deftest test-0722
   (testing "testting case 722"
-    (is (= (stemming "Korea") "Korea"))))
+    (is (= (stemming "korea") "korea"))))
 
 (deftest test-0723
   (testing "testting case 723"
@@ -2917,7 +2917,7 @@
 
 (deftest test-0727
   (testing "testting case 727"
-    (is (= (stemming "January") "Januari"))))
+    (is (= (stemming "january") "januari"))))
 
 (deftest test-0728
   (testing "testting case 728"
@@ -3001,11 +3001,11 @@
 
 (deftest test-0748
   (testing "testting case 748"
-    (is (= (stemming "Foreign") "Foreign"))))
+    (is (= (stemming "foreign") "foreign"))))
 
 (deftest test-0749
   (testing "testting case 749"
-    (is (= (stemming "Ministry") "Ministri"))))
+    (is (= (stemming "ministry") "ministri"))))
 
 (deftest test-0750
   (testing "testting case 750"
@@ -3029,7 +3029,7 @@
 
 (deftest test-0755
   (testing "testting case 755"
-    (is (= (stemming "Richardson") "Richardson"))))
+    (is (= (stemming "richardson") "richardson"))))
 
 (deftest test-0756
   (testing "testting case 756"
@@ -3037,7 +3037,7 @@
 
 (deftest test-0757
   (testing "testting case 757"
-    (is (= (stemming "China") "China"))))
+    (is (= (stemming "china") "china"))))
 
 (deftest test-0758
   (testing "testting case 758"
@@ -3077,11 +3077,11 @@
 
 (deftest test-0767
   (testing "testting case 767"
-    (is (= (stemming "North") "North"))))
+    (is (= (stemming "north") "north"))))
 
 (deftest test-0768
   (testing "testting case 768"
-    (is (= (stemming "Koreans") "Korean"))))
+    (is (= (stemming "koreans") "korean"))))
 
 (deftest test-0769
   (testing "testting case 769"
@@ -3133,11 +3133,11 @@
 
 (deftest test-0781
   (testing "testting case 781"
-    (is (= (stemming "North") "North"))))
+    (is (= (stemming "north") "north"))))
 
 (deftest test-0782
   (testing "testting case 782"
-    (is (= (stemming "Korean") "Korean"))))
+    (is (= (stemming "korean") "korean"))))
 
 (deftest test-0783
   (testing "testting case 783"
@@ -3237,7 +3237,7 @@
 
 (deftest test-0807
   (testing "testting case 807"
-    (is (= (stemming "North") "North"))))
+    (is (= (stemming "north") "north"))))
 
 (deftest test-0808
   (testing "testting case 808"
@@ -3253,11 +3253,11 @@
 
 (deftest test-0811
   (testing "testting case 811"
-    (is (= (stemming "President") "Presid"))))
+    (is (= (stemming "president") "presid"))))
 
 (deftest test-0812
   (testing "testting case 812"
-    (is (= (stemming "Obama") "Obama"))))
+    (is (= (stemming "obama") "obama"))))
 
 (deftest test-0813
   (testing "testting case 813"
@@ -3273,7 +3273,7 @@
 
 (deftest test-0816
   (testing "testting case 816"
-    (is (= (stemming "Kim") "Kim"))))
+    (is (= (stemming "kim") "kim"))))
 
 (deftest test-0817
   (testing "testting case 817"
@@ -3281,11 +3281,11 @@
 
 (deftest test-0818
   (testing "testting case 818"
-    (is (= (stemming "Dennis") "Denni"))))
+    (is (= (stemming "dennis") "denni"))))
 
 (deftest test-0819
   (testing "testting case 819"
-    (is (= (stemming "Rodman") "Rodman"))))
+    (is (= (stemming "rodman") "rodman"))))
 
 (deftest test-0820
   (testing "testting case 820"
@@ -3317,7 +3317,7 @@
 
 (deftest test-0827
   (testing "testting case 827"
-    (is (= (stemming "Obama") "Obama"))))
+    (is (= (stemming "obama") "obama"))))
 
 (deftest test-0828
   (testing "testting case 828"
@@ -3329,7 +3329,7 @@
 
 (deftest test-0830
   (testing "testting case 830"
-    (is (= (stemming "But") "But"))))
+    (is (= (stemming "but") "but"))))
 
 (deftest test-0831
   (testing "testting case 831"
@@ -3353,11 +3353,11 @@
 
 (deftest test-0836
   (testing "testting case 836"
-    (is (= (stemming "North") "North"))))
+    (is (= (stemming "north") "north"))))
 
 (deftest test-0837
   (testing "testting case 837"
-    (is (= (stemming "Korea") "Korea"))))
+    (is (= (stemming "korea") "korea"))))
 
 (deftest test-0838
   (testing "testting case 838"
@@ -3381,7 +3381,7 @@
 
 (deftest test-0843
   (testing "testting case 843"
-    (is (= (stemming "Pakistan") "Pakistan"))))
+    (is (= (stemming "pakistan") "pakistan"))))
 
 (deftest test-0844
   (testing "testting case 844"
@@ -3405,7 +3405,7 @@
 
 (deftest test-0849
   (testing "testting case 849"
-    (is (= (stemming "This") "Thi"))))
+    (is (= (stemming "this") "thi"))))
 
 (deftest test-0850
   (testing "testting case 850"
@@ -3485,11 +3485,11 @@
 
 (deftest test-0869
   (testing "testting case 869"
-    (is (= (stemming "Suzanne") "Suzann"))))
+    (is (= (stemming "suzanne") "suzann"))))
 
 (deftest test-0870
   (testing "testting case 870"
-    (is (= (stemming "DiMaggio") "DiMaggio"))))
+    (is (= (stemming "dimaggio") "dimaggio"))))
 
 (deftest test-0871
   (testing "testting case 871"
@@ -3517,23 +3517,23 @@
 
 (deftest test-0877
   (testing "testting case 877"
-    (is (= (stemming "Asia") "Asia"))))
+    (is (= (stemming "asia") "asia"))))
 
 (deftest test-0878
   (testing "testting case 878"
-    (is (= (stemming "Society") "Societi"))))
+    (is (= (stemming "society") "societi"))))
 
 (deftest test-0879
   (testing "testting case 879"
-    (is (= (stemming "New") "New"))))
+    (is (= (stemming "new") "new"))))
 
 (deftest test-0880
   (testing "testting case 880"
-    (is (= (stemming "York") "york"))))
+    (is (= (stemming "york") "york"))))
 
 (deftest test-0881
   (testing "testting case 881"
-    (is (= (stemming "Whether") "Whether"))))
+    (is (= (stemming "whether") "whether"))))
 
 (deftest test-0882
   (testing "testting case 882"
@@ -3597,7 +3597,7 @@
 
 (deftest test-0897
   (testing "testting case 897"
-    (is (= (stemming "Pyongyang") "Pyongyang"))))
+    (is (= (stemming "pyongyang") "pyongyang"))))
 
 (deftest test-0898
   (testing "testting case 898"
@@ -3613,15 +3613,15 @@
 
 (deftest test-0901
   (testing "testting case 901"
-    (is (= (stemming "The") "The"))))
+    (is (= (stemming "the") "the"))))
 
 (deftest test-0902
   (testing "testting case 902"
-    (is (= (stemming "United") "Unite"))))
+    (is (= (stemming "united") "unit"))))
 
 (deftest test-0903
   (testing "testting case 903"
-    (is (= (stemming "Nations") "Nation"))))
+    (is (= (stemming "nations") "nation"))))
 
 (deftest test-0904
   (testing "testting case 904"
@@ -3633,11 +3633,11 @@
 
 (deftest test-0906
   (testing "testting case 906"
-    (is (= (stemming "North") "North"))))
+    (is (= (stemming "north") "north"))))
 
 (deftest test-0907
   (testing "testting case 907"
-    (is (= (stemming "Korea") "Korea"))))
+    (is (= (stemming "korea") "korea"))))
 
 (deftest test-0908
   (testing "testting case 908"
@@ -3665,7 +3665,7 @@
 
 (deftest test-0914
   (testing "testting case 914"
-    (is (= (stemming "Obama") "Obama"))))
+    (is (= (stemming "obama") "obama"))))
 
 (deftest test-0915
   (testing "testting case 915"
@@ -3705,7 +3705,7 @@
 
 (deftest test-0924
   (testing "testting case 924"
-    (is (= (stemming "North") "North"))))
+    (is (= (stemming "north") "north"))))
 
 (deftest test-0925
   (testing "testting case 925"
@@ -3757,7 +3757,7 @@
 
 (deftest test-0937
   (testing "testting case 937"
-    (is (= (stemming "According") "Accord"))))
+    (is (= (stemming "according") "accord"))))
 
 (deftest test-0938
   (testing "testting case 938"
@@ -3801,11 +3801,11 @@
 
 (deftest test-0948
   (testing "testting case 948"
-    (is (= (stemming "White") "White"))))
+    (is (= (stemming "white") "white"))))
 
 (deftest test-0949
   (testing "testting case 949"
-    (is (= (stemming "House") "Hous"))))
+    (is (= (stemming "house") "hous"))))
 
 (deftest test-0950
   (testing "testting case 950"
@@ -3813,11 +3813,11 @@
 
 (deftest test-0951
   (testing "testting case 951"
-    (is (= (stemming "State") "State"))))
+    (is (= (stemming "state") "state"))))
 
 (deftest test-0952
   (testing "testting case 952"
-    (is (= (stemming "Department") "Depart"))))
+    (is (= (stemming "department") "depart"))))
 
 (deftest test-0953
   (testing "testting case 953"
@@ -3829,7 +3829,7 @@
 
 (deftest test-0955
   (testing "testting case 955"
-    (is (= (stemming "Pentagon") "Pentagon"))))
+    (is (= (stemming "pentagon") "pentagon"))))
 
 (deftest test-0956
   (testing "testting case 956"
@@ -3841,7 +3841,7 @@
 
 (deftest test-0958
   (testing "testting case 958"
-    (is (= (stemming "Kim") "Kim"))))
+    (is (= (stemming "kim") "kim"))))
 
 (deftest test-0959
   (testing "testting case 959"
@@ -3921,7 +3921,7 @@
 
 (deftest test-0978
   (testing "testting case 978"
-    (is (= (stemming "Under") "Under"))))
+    (is (= (stemming "under") "under"))))
 
 (deftest test-0979
   (testing "testting case 979"
@@ -3957,11 +3957,11 @@
 
 (deftest test-0987
   (testing "testting case 987"
-    (is (= (stemming "North") "North"))))
+    (is (= (stemming "north") "north"))))
 
 (deftest test-0988
   (testing "testting case 988"
-    (is (= (stemming "Korea") "Korea"))))
+    (is (= (stemming "korea") "korea"))))
 
 (deftest test-0989
   (testing "testting case 989"
@@ -3993,11 +3993,11 @@
 
 (deftest test-0996
   (testing "testting case 996"
-    (is (= (stemming "South") "South"))))
+    (is (= (stemming "south") "south"))))
 
 (deftest test-0997
   (testing "testting case 997"
-    (is (= (stemming "Koreans") "Korean"))))
+    (is (= (stemming "koreans") "korean"))))
 
 (deftest test-0998
   (testing "testting case 998"
@@ -4053,7 +4053,7 @@
 
 (deftest test-1011
   (testing "testting case 1011"
-    (is (= (stemming "Thursday") "Thursdai"))))
+    (is (= (stemming "thursday") "thursdai"))))
 
 (deftest test-1012
   (testing "testting case 1012"
@@ -4065,27 +4065,27 @@
 
 (deftest test-1014
   (testing "testting case 1014"
-    (is (= (stemming "Senate") "Senat"))))
+    (is (= (stemming "senate") "senat"))))
 
 (deftest test-1015
   (testing "testting case 1015"
-    (is (= (stemming "Foreign") "Foreign"))))
+    (is (= (stemming "foreign") "foreign"))))
 
 (deftest test-1016
   (testing "testting case 1016"
-    (is (= (stemming "Relations") "Relat"))))
+    (is (= (stemming "relations") "relat"))))
 
 (deftest test-1017
   (testing "testting case 1017"
-    (is (= (stemming "Committee") "Committe"))))
+    (is (= (stemming "committee") "committe"))))
 
 (deftest test-1018
   (testing "testting case 1018"
-    (is (= (stemming "Glyn") "Glyn"))))
+    (is (= (stemming "glyn") "glyn"))))
 
 (deftest test-1019
   (testing "testting case 1019"
-    (is (= (stemming "Davies") "Davi"))))
+    (is (= (stemming "davies") "davi"))))
 
 (deftest test-1020
   (testing "testting case 1020"
@@ -4109,11 +4109,11 @@
 
 (deftest test-1025
   (testing "testting case 1025"
-    (is (= (stemming "North") "North"))))
+    (is (= (stemming "north") "north"))))
 
 (deftest test-1026
   (testing "testting case 1026"
-    (is (= (stemming "Korea") "Korea"))))
+    (is (= (stemming "korea") "korea"))))
 
 (deftest test-1027
   (testing "testting case 1027"
@@ -4153,7 +4153,7 @@
 
 (deftest test-1036
   (testing "testting case 1036"
-    (is (= (stemming "Obama") "Obama"))))
+    (is (= (stemming "obama") "obama"))))
 
 (deftest test-1037
   (testing "testting case 1037"
@@ -4209,7 +4209,7 @@
 
 (deftest test-1050
   (testing "testting case 1050"
-    (is (= (stemming "North") "North"))))
+    (is (= (stemming "north") "north"))))
 
 (deftest test-1051
   (testing "testting case 1051"
@@ -4269,15 +4269,15 @@
 
 (deftest test-1065
   (testing "testting case 1065"
-    (is (= (stemming "Choe") "Choe"))))
+    (is (= (stemming "choe") "choe"))))
 
 (deftest test-1066
   (testing "testting case 1066"
-    (is (= (stemming "Sang") "Sang"))))
+    (is (= (stemming "sang") "sang"))))
 
 (deftest test-1067
   (testing "testting case 1067"
-    (is (= (stemming "Hun") "Hun"))))
+    (is (= (stemming "hun") "hun"))))
 
 (deftest test-1068
   (testing "testting case 1068"
@@ -4289,15 +4289,15 @@
 
 (deftest test-1070
   (testing "testting case 1070"
-    (is (= (stemming "Seoul") "Seoul"))))
+    (is (= (stemming "seoul") "seoul"))))
 
 (deftest test-1071
   (testing "testting case 1071"
-    (is (= (stemming "South") "South"))))
+    (is (= (stemming "south") "south"))))
 
 (deftest test-1072
   (testing "testting case 1072"
-    (is (= (stemming "Korea") "Korea"))))
+    (is (= (stemming "korea") "korea"))))
 
 (deftest test-1073
   (testing "testting case 1073"
@@ -4305,11 +4305,11 @@
 
 (deftest test-1074
   (testing "testting case 1074"
-    (is (= (stemming "Rick") "Rick"))))
+    (is (= (stemming "rick") "rick"))))
 
 (deftest test-1075
   (testing "testting case 1075"
-    (is (= (stemming "Gladstone") "Gladston"))))
+    (is (= (stemming "gladstone") "gladston"))))
 
 (deftest test-1076
   (testing "testting case 1076"
@@ -4317,19 +4317,19 @@
 
 (deftest test-1077
   (testing "testting case 1077"
-    (is (= (stemming "New") "New"))))
+    (is (= (stemming "new") "new"))))
 
 (deftest test-1078
   (testing "testting case 1078"
-    (is (= (stemming "York") "york"))))
+    (is (= (stemming "york") "york"))))
 
 (deftest test-1079
   (testing "testting case 1079"
-    (is (= (stemming "David") "David"))))
+    (is (= (stemming "david") "david"))))
 
 (deftest test-1080
   (testing "testting case 1080"
-    (is (= (stemming "Sanger") "Sanger"))))
+    (is (= (stemming "sanger") "sanger"))))
 
 (deftest test-1081
   (testing "testting case 1081"
@@ -4345,6 +4345,5 @@
 
 (deftest test-1084
   (testing "testting case 1084"
-    (is (= (stemming "Washington") "Washington"))))
-
+    (is (= (stemming "washington") "washington"))))
 

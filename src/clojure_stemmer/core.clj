@@ -157,6 +157,6 @@
 (defn stemming [w]
   (if (< (.length w) 3)
     w
-    (-> w step0 step1-a step1-b step1-c step2 step3 step4 step5-a step5-b step5-c)))
+    (-> (clojure.string/lower-case w) step0 step1-a step1-b step1-c step2 step3 step4 step5-a step5-b step5-c)))
 
 

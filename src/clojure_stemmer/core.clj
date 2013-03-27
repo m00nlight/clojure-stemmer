@@ -9,6 +9,7 @@
 ;; Email  : dot.wangyushi@gmail.com
 ;; Any bug reports are welcomed to send me a email.
 
+;; This program is under BSD license.
 
 (ns clojure-stemmer.core)
 

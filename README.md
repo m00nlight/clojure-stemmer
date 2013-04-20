@@ -45,4 +45,4 @@ Ran 1086 tests containing 1086 assertions.
 
 Copyright © 2013 m00nlight
 
-Distributed under the Eclipse Public License, the same as Clojure.
+Distributed under the BSD License.

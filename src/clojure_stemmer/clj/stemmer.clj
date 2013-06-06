@@ -26,7 +26,7 @@
 ;;        5. Moved the test expression to the end
 ;;        6. Adjust the code width to fit in 80 columns for better
 ;;           compatibility with older editors.
-
+;;      Thanks bob for the improvements :)
 
 ;; 20/4/2013
 ;;      m00nlight<dot.wangyushi@gmail.com>: first version commit

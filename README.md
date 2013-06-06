@@ -14,14 +14,12 @@ After you start the clojure repl with command `lein repl`, you can do as followi
 
 ```
 #!clojure
-user=> (load-file "src/clojure_stemmer/core.clj")
-#'clojure-stemmer.core/stemming
-user=> (clojure-stemmer.core/stemming "working")
+user=> (load-file "src/clojure_stemmer/clj/stemmer.clj")
+"cr"
+user=> (clj.stemmer/stemming "working")
 "work"
-user=> (clojure-stemmer.core/stemming "chinese")
+user=> (clj.stemmer/stemming "chinese")
 "chines"
-user=> (clojure-stemmer.core/stemming "chávez")
-"chávez"
 ```
 
 You can also run the all test, if you use the lein to manager clojure project, just by typing `lein test` under

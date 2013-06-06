@@ -2,4 +2,4 @@
   :description "Clojure Implementation of Porter Stemming Algorithm"
   :url "http://bitbucket.org/m00nlight/clojure-stemmer"
   :license {:name "BSD License"}
-  :dependencies [[org.clojure/clojure "1.4.0"]])
+  :dependencies [[org.clojure/clojure "1.5.1"]])

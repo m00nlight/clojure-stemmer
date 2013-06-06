@@ -39,6 +39,8 @@ Ran 1086 tests containing 1086 assertions.
 0 failures, 0 errors.
 ```
 
+The code was tested under Clojure version 1.4.0 and 1.5.1.
+
 ## License
 
 Copyright © 2013 m00nlight

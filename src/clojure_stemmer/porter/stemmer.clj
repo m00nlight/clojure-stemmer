@@ -12,9 +12,15 @@
 ;; The New BSD license (http://en.wikipedia.org/wiki/BSD_licenses)
 ;; applies to this program.
 
-;;(ns clojure-stemmer.core)
-
 ;; Change Log
+
+;; 10/6/2013
+;;      Bob's suggestion
+;;        1. Improve remove-last to avoid Java reflection
+;;        2. Use more meaningful namespace
+;;        3. Update license
+;;      Bug fix:
+;;        1. Fix the bug of stemming "feed" to "fee"(caused by step1-b)
 
 ;; 6/6/2013
 ;;      Bob Kirby: http://www.linkedin.com/in/bobkirby
@@ -26,12 +32,12 @@
 ;;        5. Moved the test expression to the end
 ;;        6. Adjust the code width to fit in 80 columns for better
 ;;           compatibility with older editors.
-;;      Thanks bob for the improvements :)
+;;      Thanks Bob for the improvements :)
 
 ;; 20/4/2013
 ;;      m00nlight<dot.wangyushi@gmail.com>: first version commit
 
-(ns clj.stemmer)
+(ns clojure-stemmer.porter.stemmer)
 
 (def step-2-map
   {"ational" "ate",
@@ -90,18 +96,20 @@
 (def steps-pattern
   (re-pattern (str "^" C-str v-str "[^aeiouwxy]$")))
 
-(defn remove-last [ss rep]
-  (let [ss-rev (clojure.string/reverse ss)
-        rep-rev (clojure.string/reverse rep)]
-    (clojure.string/reverse (clojure.string/replace-first ss-rev rep-rev ""))))
+(defn remove-last [^String ss ^String rep]
+  (let [index (.lastIndexOf ss rep)]
+    (if (neg? index)
+      ss
+      (str (subs ss 0 index) (subs ss (+ index (count rep)))))))
 
 (defn get-match [w regex]
-  "Test whether a word match a regex expression, if match,
+  "Test whether a word matches a regex, if it matches,
 return [$` $1], otherwise, return [nil nil]"
-  (let [f (re-find regex w)]
-    (if (not (nil? f))
-      [(remove-last w (nth f 0)) (nth f 1)]
+  (let [[matched group1 :as found] (re-find regex w)]
+    (if (not (nil? found))
+      [(remove-last w (str matched)) group1]
       [nil nil])))
+
 
 (defn test-match? [w regex]
   (not (nil? (re-find regex w))))
@@ -126,21 +134,20 @@ return [$` $1], otherwise, return [nil nil]"
 
 ;; step 1b
 (defn step1-b [w]
-  (let [[f1 v1] (get-match w #"eed$")
-        [f2 v2] (get-match w #"(ed|ing)$")]
-    (cond
-     f1 (let [[f v] (get-match f1 mgr0-pattern)]
-          (if f (chop w) w))
-     f2 (let [[f v] (get-match f2 _v-pattern)
-              stem f2]
-          (cond
-           (and f (test-match? stem #"(at|bl|iz)$")) (str stem "e")
-           (and f (test-match? stem #"([^aeiouylsz])\1$")) (chop stem)
-           (and f (test-match? stem steps-pattern)) (str stem "e")
-           f stem
-           :else w))
-     :else w)))
-
+  (cond
+   (re-find #"eed$" w) (if (re-find mgr0-pattern
+                                    (subs w 0 (- (count w) 3)))
+                         (chop w)
+                         w)
+   (re-find #"(ed|ing)$" w) (let [[stem v] (get-match w #"(ed|ing)$")]
+                              (if (re-find _v-pattern stem)
+                                (cond
+                                 (re-find #"(at|bl|iz)$" stem) (str stem "e")
+                                 (re-find #"([^aeiouylsz])\1$" stem) (chop stem)
+                                 (re-find steps-pattern stem) (str stem "e")
+                                 :else stem)
+                                w))
+   :else w))
 
 ;; step 1c
 (defn step1-c [w]

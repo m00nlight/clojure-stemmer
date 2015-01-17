@@ -15,7 +15,7 @@ redistribute it, but must comply with the new BSD licence.
 
 With leiningen, you should add the following in you `project.clj`:
 
-``clojure
+```clojure
 [clojure-stemmer "0.1.0"]
 ```
 
@@ -33,8 +33,7 @@ After you start the clojure repl with command `lein repl`, you can do as
 following to use it:
 
 
-```
-#!clojure
+```clojure
 user=> (use '[clojure-stemmer.porter.stemmer])
 nil
 user=> (stemming "chinese")
